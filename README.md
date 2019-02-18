@@ -5,7 +5,7 @@
 ```
 $ chmod +x run build
 $ ./build
-$ ln -s "${PWD}/run /usr/local/bin/custodian
+$ ln -s "${PWD}/run" /usr/local/bin/custodian
 $ custodian 
 ```
 ### you should see the help information now
