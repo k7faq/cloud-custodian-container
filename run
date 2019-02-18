@@ -3,4 +3,5 @@
 docker run \
   -v "${PWD}:/policies" \
   -v "${HOME}/.aws/:/root/.aws/" \
+  -v "/tmp/custodian:/tmp" \ 
   -it custodian "$@"
